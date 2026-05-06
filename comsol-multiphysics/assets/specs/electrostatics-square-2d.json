@@ -1,0 +1,28 @@
+{
+  "template": "electrostatics-square-2d",
+  "class_name": "ElectrostaticsSquareProject",
+  "model_label": "Electrostatics Square Project",
+  "output_dir": "./outputs/electrostatics-square-project",
+  "geometry": {
+    "size": "1",
+    "length_unit": "m"
+  },
+  "physics": {
+    "ground_boundary": 1,
+    "potential_boundary": 3,
+    "potential_value": "1[V]"
+  },
+  "study": {
+    "type": "Stationary"
+  },
+  "postprocess": {
+    "plot_expression": "V",
+    "table_expression": "V"
+  },
+  "exports": {
+    "mph_filename": "electrostatics-square.mph",
+    "image_filename": "potential.png",
+    "table_filename": "max-potential.txt",
+    "batchlog_filename": "run.log"
+  }
+}

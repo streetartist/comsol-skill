@@ -1,0 +1,7 @@
+interface:
+  display_name: "COMSOL Multiphysics"
+  short_description: "Drive local COMSOL models end to end."
+  default_prompt: "Use $comsol-multiphysics to inspect, build, solve, export, and automate local COMSOL models."
+
+policy:
+  allow_implicit_invocation: true

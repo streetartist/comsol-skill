@@ -1,0 +1,33 @@
+{
+  "template": "heat-transfer-square-2d",
+  "class_name": "HeatTransferSquareProject",
+  "model_label": "Heat Transfer Square Project",
+  "output_dir": "./outputs/heat-transfer-square-project",
+  "geometry": {
+    "size": "1",
+    "length_unit": "m"
+  },
+  "material": {
+    "thermalconductivity": "15[W/(m*K)]",
+    "density": "7800[kg/m^3]",
+    "heatcapacity": "500[J/(kg*K)]"
+  },
+  "physics": {
+    "boundary_temperature": "293.15[K]",
+    "heat_source": "1e6[W/m^3]"
+  },
+  "study": {
+    "type": "Stationary"
+  },
+  "postprocess": {
+    "primary_plot_expression": "T",
+    "table_expression": "T",
+    "table_label": "Max temperature"
+  },
+  "exports": {
+    "mph_filename": "heat-transfer-square.mph",
+    "primary_image_filename": "temperature.png",
+    "table_filename": "max-temperature.txt",
+    "batchlog_filename": "run.log"
+  }
+}

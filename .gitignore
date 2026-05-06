@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+scratch/
+scratch-out/
+scratch-out2/
+
+comsol-multiphysics/assets/specs/outputs/
+
+.DS_Store
+Thumbs.db
