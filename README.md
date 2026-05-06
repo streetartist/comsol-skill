@@ -1,4 +1,4 @@
-# Skill for Codex
+# Skill for Cosmol
 
 Skill for operating a local COMSOL Multiphysics installation end to end.
 
