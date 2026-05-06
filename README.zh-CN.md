@@ -1,6 +1,6 @@
-# Codex 的 COMSOL Skill
+# COMSOL Skill
 
-这是一个用于 Codex 的 COMSOL Multiphysics 自动化 skill，用于端到端操作本地 COMSOL 安装。
+这是一个 COMSOL Multiphysics 自动化 skill，用于端到端操作本地 COMSOL 安装。
 
 它支持安装路径发现、COMSOL 命令启动、Java 模型编译、batch 求解、本地 Application Library 搜索、基于 JSON 的起步模型生成，以及在环境可用时通过 MATLAB LiveLink 自动化模型。
 

@@ -1,6 +1,6 @@
-# COMSOL Skill for Codex
+# Skill for Codex
 
-Codex skill for operating a local COMSOL Multiphysics installation end to end.
+Skill for operating a local COMSOL Multiphysics installation end to end.
 
 It supports installation discovery, COMSOL command launching, Java model compilation, batch solving, local Application Library search, JSON-driven starter model generation, and MATLAB LiveLink automation when available.
 
